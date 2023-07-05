@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_s_fields",
+  "info": {
+    "displayName": "field",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "detail": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float",
+      "required": true
+    },
+    "uid": {
+      "type": "string"
+    },
+    "prefix": {
+      "type": "string"
+    }
+  }
+}

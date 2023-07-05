@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_field_parameters",
+  "info": {
+    "displayName": "Parameter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "field": {
+      "type": "component",
+      "repeatable": true,
+      "component": "field.field"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "integer",
+      "required": true
+    },
+    "uid": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

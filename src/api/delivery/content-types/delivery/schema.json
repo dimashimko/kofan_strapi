@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deliveries",
+  "info": {
+    "singularName": "delivery",
+    "pluralName": "deliveries",
+    "displayName": "Delivery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "street": {
+      "type": "string"
+    },
+    "houseNumber": {
+      "type": "string",
+      "required": true
+    },
+    "entrance": {
+      "type": "string"
+    },
+    "apartment": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "time": {
+      "type": "time",
+      "required": true
+    },
+    "changeMoney": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "callBack": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

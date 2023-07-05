@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_dish_ord_dish_ords",
+  "info": {
+    "displayName": "DishOrd",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "uidCategory": {
+      "type": "string",
+      "required": true
+    },
+    "uidProduct": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true
+    },
+    "parameters": {
+      "displayName": "parameters",
+      "type": "component",
+      "repeatable": true,
+      "component": "dish-ord.parameters"
+    },
+    "price": {
+      "type": "float",
+      "required": true,
+      "default": 0
+    }
+  }
+}

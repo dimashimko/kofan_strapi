@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "cafeId": {
+      "type": "string"
+    },
+    "dateTime": {
+      "type": "integer"
+    },
+    "cartId": {
+      "type": "integer"
+    },
+    "orderType": {
+      "type": "enumeration",
+      "enum": [
+        "courier",
+        "takeAway",
+        "orderForTable"
+      ],
+      "required": true
+    },
+    "deliveryId": {
+      "type": "integer"
+    },
+    "paymentType": {
+      "type": "enumeration",
+      "enum": [
+        "cash",
+        "online",
+        "paid"
+      ],
+      "required": true
+    },
+    "discount": {
+      "type": "integer"
+    }
+  }
+}

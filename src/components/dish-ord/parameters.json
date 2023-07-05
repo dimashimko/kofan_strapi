@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_dish_ord_parameters",
+  "info": {
+    "displayName": "parameters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "uidParameter": {
+      "type": "string",
+      "required": true
+    },
+    "uidsFields": {
+      "type": "string"
+    }
+  }
+}
