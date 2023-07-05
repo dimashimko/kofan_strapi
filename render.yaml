@@ -4,7 +4,7 @@ services:
     env: node
     plan: free
     buildCommand: yarn install && yarn build
-    startCommand: rsync yarn start
+    startCommand: yarn start
     healthCheckPath: /_health
     autoDeploy: false
     envVars:
