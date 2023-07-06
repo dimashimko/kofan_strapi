@@ -2,10 +2,14 @@ services:
   - type: web
     name: strapi
     env: node
-    plan: free
+    plan: starter
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
+        disk:
+          name: strapi-data
+          mountPath: /data
+          sizeGB: 1
     autoDeploy: false
     envVars:
       - key: NODE_VERSION
