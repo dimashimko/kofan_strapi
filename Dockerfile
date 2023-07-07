@@ -6,11 +6,11 @@ ENV NODE_ENV=${NODE_ENV}
 
 WORKDIR /opt/
 COPY package.json package-lock.json ./
-RUN npm ci --omit=dev
+RUN npm i --omit=dev
 ENV PATH /opt/node_modules/.bin:$PATH
 WORKDIR /opt/app
 COPY . .
-RUN npm build
+RUN npm run build
 
 # Creating final production image
 FROM node:18-alpine
