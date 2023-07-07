@@ -11,14 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.9.0",
-    "@strapi/plugin-users-permissions": "4.9.0",
     "@strapi/plugin-i18n": "4.9.0",
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/strapi": "4.9.0",
     "better-sqlite3": "8.0.1"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "78eac7df-044c-4832-9cd8-de633a81915a"
   },
@@ -26,5 +24,7 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/dimashimko/kofan_strapi.git"
 }
